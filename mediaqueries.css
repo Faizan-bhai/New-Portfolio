@@ -1,8 +1,12 @@
 @media screen and (max-width: 1400px) {
     #profile {
-      height: 83vh;
+      height: 50vh;
       margin-bottom: 6rem;
     }
+      
+
+ 
+    
     .about-containers {
       flex-wrap: wrap;
     }
@@ -70,12 +74,7 @@
     }
   }
 
-  @media screen and (min-width:300px)and(max-width:490px){
-    #profile{
-      height: 57vh;
-    }
 
-  }
   
   @media screen and (min-width: 600px){
     #profile #hmar__pic{
@@ -84,11 +83,21 @@
     }
   }
 
-  @media screen and (max-width: 625px) {
+  @media screen and (max-width:1200px){
+    #profile {
+      height: 50vh;
+      margin-bottom: 0;
+    }
+  }
+
+
+
+  @media screen and (max-width: 895px) {
+  
     #contact,
     footer {
         background-color: rgb(61, 59, 59);
-       height: 40vh;
+      max-height: fit-content;
        width: 100vw;
        margin-left: 0;
     }
@@ -103,10 +112,7 @@
       border-radius: 50px;
     }
     
-    #profile {
-      height: 77vh;
-      margin-bottom: 0;
-    }
+
     article {
       font-size: 1rem;
     }
@@ -155,4 +161,27 @@
     .text-container {
       text-align: justify;
     }
+  }
+
+  @media screen and (min-width:400px) and (max-width:1200px) {
+    #profile {
+     height: 60vh;
+    }
+    
+  }
+
+  
+  @media screen and (min-width:400px) and (max-width:1200px) {
+    #profile {
+     height: 60vh;
+    }
+    
+  }
+ 
+    
+  @media screen and (max-width:600px) {
+    #profile {
+     height: 65vh;
+    }
+    
   }
